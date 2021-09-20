@@ -13,4 +13,4 @@ RUN rm /tmp/requirements.txt
 
 COPY ./src/ /usr/local/share/drone-global-env/
 WORKDIR /usr/local/share/drone-global-env/
-ENTRYPOINT ["hypercorn", "main:app"]
+ENTRYPOINT ["hypercorn", "main:app", "--bind", "0.0.0.0:8080"]
