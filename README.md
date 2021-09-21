@@ -4,7 +4,7 @@
 drone-global-env is an [environment extension](https://docs.drone.io/extensions/environment/) for Drone CI, allowing you to specify environment variables that will be passed to all of your CI builds.
 
 ## Installing
-The only supported way for running is throw the official Docker image which can be pulled from the following repository:
+The only supported way for running is through the official Docker image which can be pulled from the following repository:
 
 ```
 proget.hunterwittenborn.com/docker/hwittenborn/drone-global-env
