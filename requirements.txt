@@ -1,3 +1,3 @@
-pyyaml==6.0
-fastapi==0.81.0
-hypercorn==0.14.3
+pyyaml==6.0.3
+fastapi==0.123.8
+hypercorn==0.18.0
